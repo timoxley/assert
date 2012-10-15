@@ -3,7 +3,7 @@
 This module is used for writing unit tests for your applications, you can
 access it with `require('assert')`.
 
-`assert` is 'ported' from Node.JS for use as a component in the browser.
+`assert` module ported from Node.JS for use as a component in the browser.
 
 ## Installation
 
