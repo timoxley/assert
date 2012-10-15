@@ -70,38 +70,38 @@ validation function.
 Validate instanceof using constructor:
 
 ```js
-    assert.throws(
-      function() {
-        throw new Error("Wrong value");
-      },
-      Error
-    );
+assert.throws(
+  function() {
+    throw new Error("Wrong value");
+  },
+  Error
+);
 ```
 
 Validate error message using RegExp:
 
 ```js
-    assert.throws(
-      function() {
-        throw new Error("Wrong value");
-      },
-      /value/
-    );
+assert.throws(
+  function() {
+    throw new Error("Wrong value");
+  },
+  /value/
+);
 ```
 Custom error validation:
 
 ```js 
-    assert.throws(
-      function() {
-        throw new Error("Wrong value");
-      },
-      function(err) {
-        if ( (err instanceof Error) && /value/.test(err) ) {
-          return true;
-        }
-      },
-      "unexpected error"
-    );
+assert.throws(
+  function() {
+    throw new Error("Wrong value");
+  },
+  function(err) {
+    if ( (err instanceof Error) && /value/.test(err) ) {
+      return true;
+    }
+  },
+  "unexpected error"
+);
 ```
 
 ### assert.doesNotThrow(block, [message])
