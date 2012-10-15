@@ -1,0 +1,14 @@
+{
+  "name": "assert",
+  "repo": "timoxley/assert",
+  "description": "Assertion tool ported from Node for the browser.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/inherit": "*"
+  },
+  "development": {},
+  "scripts": [
+    "index.js"
+  ]
+}
