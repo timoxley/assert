@@ -120,5 +120,6 @@ the browser.
 
 ## Credit
 
-Extracted /lib/assert.js from joyent/node master branch on 16/10/2012.
-https://github.com/joyent/node/blob/e4cef1a0833e6d677298600e205a142d15639bf2/lib/assert.js
+Extracted from [joyent/node master
+branch](https://github.com/joyent/node/blob/e4cef1a0833e6d677298600e205a142d15639bf2/lib/assert.js) 
+
